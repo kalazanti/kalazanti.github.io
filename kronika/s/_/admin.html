@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>kalazanti3 krónika DEMO</title>
+  </head>
+  <body>
+    <header>Kalazanti Kronika belepes</header>
+    <main>
+      <form>
+        <input type="text" name="email" />
+        <input type="password" name="pass" />
+        <input type="submit" value="Belepes" />
+      </form>
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+    </main>
+    <footer></footer>
+  </body>
+  <script type="module">
+    import { client } from "../../../script/kalazanti3.js";
+
+    const form = document.querySelector("form");
+    const out = document.querySelector("textarea");
+
+    client.users
+      .authViaEmail("test@example.com", "123456")
+      .then(resp => resp.json())
+      .then(json => console.log(json))
+      .catch(err => console.log(err));
+  </script>
+</html>

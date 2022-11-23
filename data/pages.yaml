@@ -1,0 +1,10 @@
+---
+- name: Aktualis
+  url: "#!"
+  color: primary
+- name: Csapatunkrol
+  url: "#!/csapat"
+  color: primary
+- name: Kronika
+  url: "/kronika"
+  color: accent

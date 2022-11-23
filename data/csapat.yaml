@@ -1,0 +1,13 @@
+---
+- name: Névadónk
+  url: "#!/csapat/nevadonk"
+  color: primary
+- name: Csapatfelépítés
+  url: "#!/csapat/felepites"
+  color: primary
+- name: Táboraink
+  url: "/csapat/taborok"
+  color: accent
+- name: Kapcsolat
+  url: "/csapat/kapcsolat"
+  color: accent
