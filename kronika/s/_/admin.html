@@ -24,10 +24,7 @@
     const form = document.querySelector("form");
     const out = document.querySelector("textarea");
 
-    client.users
-      .authViaEmail("test@example.com", "123456")
-      .then(resp => resp.json())
-      .then(json => console.log(json))
-      .catch(err => console.log(err));
+    const authData = await pb.collection("users").authWithPassword("YOUR_USERNAME_OR_EMAIL", "YOUR_PASSWORD");
+    console.log(authData);
   </script>
 </html>
