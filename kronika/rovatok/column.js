@@ -1,4 +1,4 @@
-import { client, location } from "/kalazanti3.js";
+import { client, location } from "/script/kalazanti3.js";
 
 const main = document.querySelector("main");
 
