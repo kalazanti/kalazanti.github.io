@@ -1,8 +1,11 @@
 # Névadónk
 
-[![Kalazanti Szent Jozsef](https://upload.wikimedia.org/wikipedia/commons/9/9b/Kalazanci_Szent_J%C3%B3zsef_portr%C3%A9ja_a_San_Pantaleo_rendh%C3%A1zban%2C_R%C3%B3m%C3%A1ban.jpg)](https://commons.wikimedia.org/wiki/File:Kalazanci_Szent_J%C3%B3zsef_portr%C3%A9ja_a_San_Pantaleo_rendh%C3%A1zban,_R%C3%B3m%C3%A1ban.jpg)
+<figure>
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Kalazanci_Szent_J%C3%B3zsef_portr%C3%A9ja_a_San_Pantaleo_rendh%C3%A1zban%2C_R%C3%B3m%C3%A1ban.jpg)">
+<figcaption>Kalazanti Szent József, a Piarista Rend alapítója</figcaption>
+</figure>
 
-Kalazanti Szent József, a Piarista Rend alapítója
+
 
 Kalazanti Szent József az aragóniai Peralta de la Sal községben született 1556-ban egy kovácsmester hetedik, legkisebb gyermekeként. Az édesapa meglehetős jólétet, az édesanya pedig boldog otthont teremtett a nagy családnak. A legalapvetőbb szellemi, lelki indításokat is tőle kapta legfiatalabb gyermeke.
 Iskoláit a közeli Estadillában kezdi. Tizenhat éves múlt, amikor a leridiai egyetemre került egyházmegyei ösztöndíjasként. Itt négy évet tanult. Aragón nemzetiségű diáktársai vezetőjüknek választják. Diákkonfliktusokban békéltető szerepe van, az egyetemi vezetők felé pedig a tanulói érdekeket képviseli.
