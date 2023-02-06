@@ -1,7 +1,7 @@
 # Névadónk
 
 <figure>
-<img src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Kalazanci_Szent_J%C3%B3zsef_portr%C3%A9ja_a_San_Pantaleo_rendh%C3%A1zban%2C_R%C3%B3m%C3%A1ban.jpg)">
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Kalazanci_Szent_J%C3%B3zsef_portr%C3%A9ja_a_San_Pantaleo_rendh%C3%A1zban%2C_R%C3%B3m%C3%A1ban.jpg">
 <figcaption>Kalazanti Szent József, a Piarista Rend alapítója</figcaption>
 </figure>
 
