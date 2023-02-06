@@ -1,10 +1,13 @@
 ---
-- name: Aktualis
-  url: "#!"
+- name: Mi a cserkészet?
+  url: "#!/csapat/cserkeszet"
   color: primary
-- name: Csapatunkrol
-  url: "#!/csapat"
+- name: Névadónk, Kalazanti Szent József
+  url: "#!/csapat/kalazanti"
   color: primary
-- name: Kronika
-  url: "/kronika"
-  color: accent
+- name: Táboraink
+  url: "#!/csapat/taborok"
+  color: primary
+- name: Őrsgyűlések rendje
+  url: "#!/csapat/orsgyulesek"
+  color: primary
