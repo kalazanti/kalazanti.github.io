@@ -30,7 +30,9 @@ A feljelentéseknek és a nyomukban keletkezett viharnak meg Iesz a hatása: Kal
 Életművének pusztulását és a rend halálos ítéletét Kalazanti példamutató nyugalommal fogadja: Az Úr adta, az Úr elvette. Amint az Úr akarta úgy lett. Áldott Iegyen az Ő neve. Az utókor méltán nevezi keresztény Jóbnak.
 Még érthetetlenebb az a reménye, hogy nem ez lesz az utolsó szó. Bízzék benne, bármi következzék is, szerzetünk az Úr kegyelméből élni fog!- írja egyik rendtársának a pápai határozat kihirdetése után.
 
-1.  július 31-én tölti be 90. életévét. Egy séta alkalmával megsérül a lába. Ezután már feküdnie kell, többé fel sem tud kelni. Augusztus 25-én hajnalban befejezte földi pályafutását.
-    Igen kedvelte Nagy Szent Gergely – Dialógusok könyve – című munkáját. Élete mintha illusztrációja lenne a könyv egyik mondatának: Többre tartom a Türelem erényét a jeleknél és a csodáknál. De csodák is történtek Kalazanti életében. Mégis a legszebb és egyben elgondolkoztató csoda éppen az, hogy szíve és nyelve mind a mai napig épségben megmaradt.
-    Annyi támadás ellenére műve újraéledt. 1669-ben lX. Kelemen pápa ismét ünnepélyes-fogadalmas renddé tette szerzetét.
-    1748-ban Kalazantit boldoggá, 1767-ben szentté avatták. 1948-ban XII Pius pápa a világ összes keresztény népiskoláinak mennyei pártfogójává nyilvánította.
+1646\.  július 31-én tölti be 90. életévét. Egy séta alkalmával megsérül a lába. Ezután már feküdnie kell, többé fel sem tud kelni. Augusztus 25-én hajnalban befejezte földi pályafutását.
+
+
+Igen kedvelte Nagy Szent Gergely – Dialógusok könyve – című munkáját. Élete mintha illusztrációja lenne a könyv egyik mondatának: Többre tartom a Türelem erényét a jeleknél és a csodáknál. De csodák is történtek Kalazanti életében. Mégis a legszebb és egyben elgondolkoztató csoda éppen az, hogy szíve és nyelve mind a mai napig épségben megmaradt.
+Annyi támadás ellenére műve újraéledt. 1669-ben lX. Kelemen pápa ismét ünnepélyes-fogadalmas renddé tette szerzetét.
+1748-ban Kalazantit boldoggá, 1767-ben szentté avatták. 1948-ban XII Pius pápa a világ összes keresztény népiskoláinak mennyei pártfogójává nyilvánította.
