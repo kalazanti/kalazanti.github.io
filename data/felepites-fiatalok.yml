@@ -1,28 +1,31 @@
 ---
 - name: CS Lány
-  color: zöld
+  color: zold
   members:
-    - Árnika
-    - Brokkoli
-    - Mezei katicavirág
-    - Vörös pimpernel
+    - member: Árnika őrs
+    - member: Brokkoli örs
+    - member: Mezei katicavirág őrs
+    - member: Vörös pimpernel őrs
 - name: CS Fiú
-  color: zöld
+  color: zold
   members:
-    - Vándorsólyom
-    - Vidra
-    - Mosómedve
-    - Cickány
+    - member: Vándorsólyom őrs
+    - member: Vidra őrs
+    - member: Mosómedve őrs
+    - member: Cickány őrs
+      
 - name: KCS Lány
-  color: kék
+  color: kek
   members:
-    - Vadgesztenye
-    - Berkenye
-    - Csalán
-    - Sütőtök
+    - member: Vadgesztenye őrs
+    - member: Berkenye őrs
+    - member: Csalán őrs
+    - member: Sütőtök őrs
+      
 - name: KCS Fiú
-  color: kék
+  color: kek
   members:
-    - Vörös vércse
-    - Kormorán
-    - Aranysakál
+    - member: Vörös vércse őrs
+    - member: Kormorán őrs
+    - member: Aranysakál őrs
+      

@@ -1,39 +1,52 @@
 ---
-- name: Vasmacska őrs
+- name: Vasmacska őrs (parancsnokok)
   color: lazac
   members:
-    - Benyhe Anna cspk.
-    - Márton Balázs cspk.
-    - Konkoly Bogi törzs őv.
-- name: Békatutaj őrs
-  color: sárga
+    - member: Benyhe Anna
+      detail: csapatparancsnok
+    - member: Márton Balázs
+      detail: csapatparancsnok
+    - member: Konkoly Boglárka
+      detail: törzs őrsvezetője
+- name: Békatutaj őrs (törzs)
+  color: sarga
   members:
-    - Küzmüs Emese FK rajv.
-    - Mravik Anna KCS lány rajv.
-    - Szél László KCS fiú rajv.
-    - Szentmariay Panni Vándor rajv.
-    - Szabó Tamás CS fiú rajv.
-    - Somogyi Péter Kósza rajv.
-    - Sinka Cecília Kósza rajv.
-    - Horváth Péter munkacsoportok vezetője
-    - Bucsánszki Tamás operatív vezetőkért felelős
-    - Amberboy Zsolt felnőtt rajv.
-- name: Felnőtt raj
+    - member: Küzmüs Emese
+      detail: farkaskölyök rajvezető
+    - member: Mravik Anna
+      detail: kiscserkész lány rajvezető
+    - member: Szél László
+      detail: kiscserkész fiú rajvezető
+    - member: Szentmariay Anna
+      detail: cserkész lány rajvezető
+    - member: Szabó Tamás
+      detail: cserkész fiú rajvezető
+    - member: Somogyi Péter
+      detail: kósza rajvezető
+    - member: Sinka Cecília
+      detail: kósza rajvezető
+    - member: Amberboy Zsolt
+      detail: felnőtt rajvezető
+    - member: Horváth Péter
+      detail: munkacsoport koordinátor
+    - member: Bucsánszki Tamás
+      detail: operatív vezetőkért felelős
+- name: Gróf Klebelsberg Kúnó felnőtt raj
   color: barna
   members:
-    - Bölömbika
-    - FiFe
+    - member: Bölömbika őrs
+    - member: Fiazal felnőtt őrs (FiFe)
 - name: Vándor rajok
-  color: szürke
+  color: szurke
   members:
-    - WAR
-    - BSL
-    - RER
-    - Romhányi
-    - MiJó
-    - CseL
+    - member: Wass Albert raj (WAR)
+    - member: Batthyány-Strattmann László raj (BSL)
+    - member: ifj. Rubik Ernő raj (RER)
+    - member: Romhányi József raj
+    - member: Mindszenty József raj (MiJó)
+    - member: Csermely László raj (CseL)
 - name: Kósza rajok
-  color: zöld
+  color: zold
   members:
-    - HuVi
-    - Balázs Béla
+    - member: Hugonnai Vilma raj
+    - member: Balázs Béla raj
