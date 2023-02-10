@@ -1,0 +1,28 @@
+---
+- name: CS Lány
+  color: zöld
+  members:
+    - Árnika
+    - Brokkoli
+    - Mezei katicavirág
+    - Vörös pimpernel
+- name: CS Fiú
+  color: zöld
+  members:
+    - Vándorsólyom
+    - Vidra
+    - Mosómedve
+    - Cickány
+- name: KCS Lány
+  color: kék
+  members:
+    - Vadgesztenye
+    - Berkenye
+    - Csalán
+    - Sütőtök
+- name: KCS Fiú
+  color: kék
+  members:
+    - Vörös vércse
+    - Kormorán
+    - Aranysakál

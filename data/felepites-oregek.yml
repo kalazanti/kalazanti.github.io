@@ -1,0 +1,39 @@
+---
+- name: Vasmacska őrs
+  color: lazac
+  members:
+    - Benyhe Anna cspk.
+    - Márton Balázs cspk.
+    - Konkoly Bogi törzs őv.
+- name: Békatutaj őrs
+  color: sárga
+  members:
+    - Küzmüs Emese FK rajv.
+    - Mravik Anna KCS lány rajv.
+    - Szél László KCS fiú rajv.
+    - Szentmariay Panni Vándor rajv.
+    - Szabó Tamás CS fiú rajv.
+    - Somogyi Péter Kósza rajv.
+    - Sinka Cecília Kósza rajv.
+    - Horváth Péter munkacsoportok vezetője
+    - Bucsánszki Tamás operatív vezetőkért felelős
+    - Amberboy Zsolt felnőtt rajv.
+- name: Felnőtt raj
+  color: barna
+  members:
+    - Bölömbika
+    - FiFe
+- name: Vándor rajok
+  color: szürke
+  members:
+    - WAR
+    - BSL
+    - RER
+    - Romhányi
+    - MiJó
+    - CseL
+- name: Kósza rajok
+  color: zöld
+  members:
+    - HuVi
+    - Balázs Béla
