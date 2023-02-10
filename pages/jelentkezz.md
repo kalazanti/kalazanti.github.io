@@ -1,3 +1,6 @@
+# Jelentkezz!
+Csapatunk legközelebb 2023. szeptemberében hirdet tagfelvételt!
+
 # Mi a cserkészet?
 
 ## Kik vagyunk?
