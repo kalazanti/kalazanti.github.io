@@ -10,11 +10,11 @@ const editor = new toastui.Editor.factory({
     viewer: true,
 });
 
-const recordsWithThisTitle = await client.records.getList("kronika", 1, 50, {
+const recordsWithThisTitle = await client.collection('kronika').getList(1, 50, {
     filter: `link = '${location()}'`,
 });
 
-const record = await client.records.getOne("kronika", recordsWithThisTitle.items.at(0).id);
+const record = recordsWithThisTitle.items.at(0);
 editor.setMarkdown(record.content);
 title.innerText = record.title;
 document.title = record.title + " | Kalazanti Krónika";
