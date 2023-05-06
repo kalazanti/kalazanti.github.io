@@ -1,8 +1,8 @@
 ---
-pages: !file pages.yaml
+pages: !file csapat.yaml
 ---
 
-<section class="three columns">
+<section class="two columns">
 {{#pages}}
 <a href="../{{url}}">
 <div class="{{color}} card">

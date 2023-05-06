@@ -1,10 +1,13 @@
 ---
-- name: Névadónk
-  url: "#!/csapat/nevadonk"
+- name: Névadónk, Kalazanti Szent József
+  url: "#!/csapat/kalazanti"
+  color: primary
+- name: Csapatfelépítés
+  url: "#!/csapat/felepites"
   color: primary
 - name: Táboraink
-  url: "/csapat/taborok"
-  color: accent
+  url: "#!/csapat/taborok"
+  color: primary
 - name: Kapcsolat
-  url: "/csapat/kapcsolat"
+  url: "#!/csapat/kapcsolat"
   color: accent

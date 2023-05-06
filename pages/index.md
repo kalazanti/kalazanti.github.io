@@ -1,18 +1,6 @@
 ---
 hirek: !file news.yaml
-pages: !file pages.yaml
 ---
-
-<section class="two columns hidden" id="submenu-csapatunk">
-{{#pages}}
-<a href="{{url}}">
-<div class="{{color}} card">
-<strong>{{name}}</strong>
-</div>
-</a>
-{{/pages}}
-</section>
-
 # Aktuális
 
 <section class="two columns">
