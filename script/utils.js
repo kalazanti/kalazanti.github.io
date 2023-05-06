@@ -1,5 +1,3 @@
-
-
 const markdownRegex = /(?<marks>[`]|\*{1,3}|_{1,3}|~{2})(?<inmarks>.*?)\1|\[(?<link_text>.*)\]\(.*\)/g;
 const hashmarkRegex = /#{1,6} /g;
 
@@ -8,14 +6,11 @@ const dateTimeFormatter = new Intl.DateTimeFormat("hu-HU", {
     month: "long",
     day: "numeric",
     hour: "numeric",
-    minute: "numeric"
+    minute: "numeric",
 });
 
 function leadify(text) {
-    return text
-        .replace(markdownRegex, '$<inmarks>$<link_text>')
-        .replace(hashmarkRegex, "")
-        .slice(0, 200) + "…";
+    return text.replace(markdownRegex, "$<inmarks>$<link_text>").replace(hashmarkRegex, "").slice(0, 200) + "…";
 }
 
 function createArticle({ title, link, author, created, lead, content }) {
@@ -38,4 +33,4 @@ function location() {
 
 const formatDateTime = date => dateTimeFormatter.format(new Date(date));
 
-export { leadify, createArticle, location, formatDateTime }
+export { leadify, createArticle, location, formatDateTime };
