@@ -4,18 +4,14 @@ const title = document.querySelector("h1");
 const article = document.querySelector("article");
 const aside = document.querySelector("aside");
 
+const record = await client.collection("kronika").getFirstListItem(`link = '${location()}'`);
+
 const editor = new toastui.Editor.factory({
     el: article,
-    initialValue: "",
+    initialValue: record.content,
     viewer: true,
 });
 
-const recordsWithThisTitle = await client.collection("kronika").getList(1, 50, {
-    filter: `link = '${location()}'`,
-});
-
-const record = recordsWithThisTitle.items.at(0);
-editor.setMarkdown(record.content);
 title.innerText = record.title;
 document.title = record.title + " | Kalazanti Krónika";
 
