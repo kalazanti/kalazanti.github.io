@@ -1,13 +1,13 @@
 ---
-oregek: !file felepites-oregek.yml
-fiatalok: !file felepites-fiatalok.yml
-kicsik: !file felepites-kicsik.yml
+senior: !file org-chart/senior.yml
+youth: !file org-chart/youth.yml
+junior: !file org-chart/junior.yml
 ---
+
 # Csapatfelépítés
 
-
 <section class="columns">
-    {{#oregek}}
+    {{#senior}}
         <article class="primary">
             <strong>{{name}}</strong>
             <div class="three columns">
@@ -19,10 +19,10 @@ kicsik: !file felepites-kicsik.yml
                 {{/members}}
             </div>
         </article>
-    {{/oregek}}
+    {{/senior}}
 </section>
 <section class="two columns">
-    {{#fiatalok}}
+    {{#youth}}
         <article class="primary">
             <strong>{{name}}</strong>
             <div class="two columns">
@@ -33,10 +33,10 @@ kicsik: !file felepites-kicsik.yml
                 {{/members}}
             </div>
         </article>
-    {{/fiatalok}}
+    {{/youth}}
 </section>
 <section class="columns">
-    {{#kicsik}}
+    {{#junior}}
         <article class="primary">
             <strong>{{name}}</strong>
             <div class="two columns">
@@ -47,5 +47,5 @@ kicsik: !file felepites-kicsik.yml
                 {{/members}}
             </div>
         </article>
-    {{/kicsik}}
+    {{/junior}}
 </section>

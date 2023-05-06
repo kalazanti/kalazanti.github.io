@@ -1,6 +1,6 @@
 ---
 - name: Vasmacska őrs (parancsnokok)
-  color: lazac
+  color: salmon
   members:
     - member: Benyhe Anna
       detail: csapatparancsnok
@@ -9,7 +9,7 @@
     - member: Konkoly Boglárka
       detail: törzs őrsvezetője
 - name: Békatutaj őrs (törzs)
-  color: sarga
+  color: yellow
   members:
     - member: Küzmüs Emese
       detail: farkaskölyök rajvezető
@@ -32,12 +32,12 @@
     - member: Bucsánszki Tamás
       detail: operatív vezetőkért felelős
 - name: Gróf Klebelsberg Kúnó raj (felnőtt cserkészek)
-  color: barna
+  color: brown
   members:
     - member: Bölömbika őrs
     - member: Fiatal felnőtt őrs (FiFe)
 - name: Vándor rajok
-  color: szurke
+  color: gray
   members:
     - member: Wass Albert raj (WAR)
     - member: Batthyány-Strattmann László raj (BSL)
@@ -46,7 +46,7 @@
     - member: Mindszenty József raj (MiJó)
     - member: Csermely László raj (CseL)
 - name: Kósza rajok
-  color: zold
+  color: green
   members:
     - member: Hugonnai Vilma raj (HuVi)
     - member: Balázs Béla raj (BaBéR)

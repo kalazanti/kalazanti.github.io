@@ -1,13 +1,13 @@
 ---
 - name: Szabó Magda raj (cserkész lány)
-  color: zold
+  color: green
   members:
     - member: Árnika őrs
     - member: Brokkoli örs
     - member: Mezei katicavirág őrs
     - member: Vörös pimpernel őrs
 - name: Fekete István raj (cserkész fiú)
-  color: zold
+  color: green
   members:
     - member: Vándorsólyom őrs
     - member: Vidra őrs
@@ -15,7 +15,7 @@
     - member: Cickány őrs
       
 - name: Bálint Ágnes raj (kicserkész lány)
-  color: kek
+  color: blue
   members:
     - member: Vadgesztenye őrs
     - member: Berkenye őrs
@@ -23,7 +23,7 @@
     - member: Sütőtök őrs
       
 - name: Benedek Elek raj (kicserkész fiú)
-  color: kek
+  color: blue
   members:
     - member: Vörös vércse őrs
     - member: Kormorán őrs
