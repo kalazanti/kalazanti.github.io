@@ -10,7 +10,7 @@ const editor = new toastui.Editor.factory({
     viewer: true,
 });
 
-const recordsWithThisTitle = await client.collection('kronika').getList(1, 50, {
+const recordsWithThisTitle = await client.collection("kronika").getList(1, 50, {
     filter: `link = '${location()}'`,
 });
 
@@ -19,8 +19,8 @@ editor.setMarkdown(record.content);
 title.innerText = record.title;
 document.title = record.title + " | Kalazanti Krónika";
 
-aside.innerHTML = `
+aside.innerHTML += `
     <div>Írta: <strong>${record.author}</strong></div>
     <div>Közzétéve: <time datetime="${record.created}">${formatDateTime(record.created)}</time></div>
     <div>Utolsó módosítás: <time datetime="${record.updated}">${formatDateTime(record.updated)}</time></div>
-`
+`;
