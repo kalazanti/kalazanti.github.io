@@ -1,12 +1,12 @@
 ---
-- name: CS Lány
+- name: Szabó Magda raj (cserkész lány)
   color: zold
   members:
     - member: Árnika őrs
     - member: Brokkoli örs
     - member: Mezei katicavirág őrs
     - member: Vörös pimpernel őrs
-- name: CS Fiú
+- name: Fekete István raj (cserkész fiú)
   color: zold
   members:
     - member: Vándorsólyom őrs
@@ -14,7 +14,7 @@
     - member: Mosómedve őrs
     - member: Cickány őrs
       
-- name: KCS Lány
+- name: Bálint Ágnes raj (kicserkész lány)
   color: kek
   members:
     - member: Vadgesztenye őrs
@@ -22,7 +22,7 @@
     - member: Csalán őrs
     - member: Sütőtök őrs
       
-- name: KCS Fiú
+- name: Benedek Elek raj (kicserkész fiú)
   color: kek
   members:
     - member: Vörös vércse őrs

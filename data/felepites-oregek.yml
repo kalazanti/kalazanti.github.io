@@ -31,11 +31,11 @@
       detail: munkacsoport koordinátor
     - member: Bucsánszki Tamás
       detail: operatív vezetőkért felelős
-- name: Gróf Klebelsberg Kúnó felnőtt raj
+- name: Gróf Klebelsberg Kúnó raj (felnőtt cserkészek)
   color: barna
   members:
     - member: Bölömbika őrs
-    - member: Fiazal felnőtt őrs (FiFe)
+    - member: Fiatal felnőtt őrs (FiFe)
 - name: Vándor rajok
   color: szurke
   members:
@@ -48,5 +48,5 @@
 - name: Kósza rajok
   color: zold
   members:
-    - member: Hugonnai Vilma raj
-    - member: Balázs Béla raj
+    - member: Hugonnai Vilma raj (HuVi)
+    - member: Balázs Béla raj (BaBéR)
