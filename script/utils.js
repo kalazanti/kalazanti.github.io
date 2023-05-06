@@ -18,17 +18,15 @@ function leadify(text) {
         .slice(0, 200) + "…";
 }
 
-function createArticle({title, link, author, created, lead, content}) {
+function createArticle({ title, link, author, created, lead, content }) {
     const article = document.createElement("article");
-    article.classList.add("gray", "card");
+    article.classList.add("lightgray", "card");
     article.innerHTML = `
         <a href="cikkek/#!/${link}">
         <strong class="headerify">${title}</strong>
-        </a>
         <p>Írta: <strong>${author}</strong>, <time datetime="${created}">${formatDateTime(created)}</time></p>
-        <div class="card">
         <p>${lead.length ? lead : leadify(content)}</p>
-        </div>
+        </a>
     `;
 
     return article;
