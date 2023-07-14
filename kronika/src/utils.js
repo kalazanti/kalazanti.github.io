@@ -20,7 +20,7 @@ function createArticle({ title, link, author, created, lead, content }) {
         <a href="cikkek/#!/${link}">
         <strong class="headerify">${title}</strong>
         <p>Írta: <strong>${author}</strong>, <time datetime="${created}">${formatDateTime(created)}</time></p>
-        <p>${lead.length ? lead : leadify(content)}</p>
+        <p class="lead">${lead.length ? lead : leadify(content)}</p>
         </a>
     `;
 
