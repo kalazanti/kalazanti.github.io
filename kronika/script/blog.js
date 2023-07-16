@@ -1,3 +1,21 @@
+import { client } from "./kalazanti3.js";
+
+/**
+ * @param {HTMLElement} target
+ */
+export async function renderArticlesInto(target) {
+    const records = await client.collection("kronika").getFullList(200 /* batch size */, {
+        sort: "-created",
+        filter: "published = true",
+    });
+
+    records.forEach(article => {
+        target.appendChild(createArticle(article));
+    });
+
+    return records;
+}
+
 const markdownRegex = /(?<marks>[`]|\*{1,3}|_{1,3}|~{2})(?<inmarks>.*?)\1|\[(?<link_text>.*)\]\(.*\)/g;
 const hashmarkRegex = /#{1,6} /g;
 
@@ -27,10 +45,4 @@ function createArticle({ title, link, author, created, lead, content }) {
     return article;
 }
 
-function location() {
-    return window.location.hash.slice(3);
-}
-
 const formatDateTime = date => dateTimeFormatter.format(new Date(date));
-
-export { leadify, createArticle, location, formatDateTime };

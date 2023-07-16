@@ -1,8 +1,8 @@
 import { JSDOM } from "jsdom";
 import { expect } from "chai";
 import sinon from "sinon";
-import { renderArticlesInto } from "../src/blog.js";
-import { client } from "../src/kalazanti3.js";
+import { renderArticlesInto } from "../script/blog.js";
+import { client } from "../script/kalazanti3.js";
 
 describe("Blog: renderArticlesInto(element)", () => {
     let target;
