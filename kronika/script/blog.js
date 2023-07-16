@@ -1,4 +1,5 @@
 import { client } from "./kalazanti3.js";
+import { formatDateTime } from "./utils.js";
 
 /**
  * @param {HTMLElement} target
@@ -19,14 +20,6 @@ export async function renderArticlesInto(target) {
 const markdownRegex = /(?<marks>[`]|\*{1,3}|_{1,3}|~{2})(?<inmarks>.*?)\1|\[(?<link_text>.*)\]\(.*\)/g;
 const hashmarkRegex = /#{1,6} /g;
 
-const dateTimeFormatter = new Intl.DateTimeFormat("hu-HU", {
-    year: "numeric",
-    month: "long",
-    day: "numeric",
-    hour: "numeric",
-    minute: "numeric",
-});
-
 function leadify(text) {
     return text.replace(markdownRegex, "$<inmarks>$<link_text>").replace(hashmarkRegex, "").slice(0, 200) + "…";
 }
@@ -44,5 +37,3 @@ function createArticle({ title, link, author, created, lead, content }) {
 
     return article;
 }
-
-const formatDateTime = date => dateTimeFormatter.format(new Date(date));
